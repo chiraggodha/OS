@@ -5,7 +5,7 @@
 int
 main(int argc, char *argv[])
 {
-    int p[2];   // pipe: p[0] = read end, p[1] = write end
+    int p[2]; 
     pipe(p);
 
     int pid = fork();
